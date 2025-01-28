@@ -12,9 +12,9 @@ on:
 env:
   ALLURE_TOKEN: ${{ secrets.ALLURE_TOKEN }}
   ALLURE_JOB_RUN_ID: ${{ github.event.inputs.ALLURE_JOB_RUN_ID }}
-  ALLURE_ENDPOINT: https://testing.qatools.cloud/
-  ALLURE_PROJECT_ID: 1272
-  ALLURE_RESULTS: target/allure-results
+  ALLURE_ENDPOINT: https://testing.qameta.io/
+  ALLURE_PROJECT_ID: 11679
+  ALLURE_RESULTS: ./allure-results
 
 jobs:
   all-tests:
